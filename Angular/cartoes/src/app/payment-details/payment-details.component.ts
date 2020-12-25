@@ -19,7 +19,7 @@ export class PaymentDetailsComponent implements OnInit {
   }
 
   onDelete(PMId) {
-    if (confirm('Are you sure to delete this record ?')) {
+    if (confirm('Excluir ?')) {
       this.service.deletePaymentDetail(PMId)
         .subscribe(res => {
           this.service.refreshList();
@@ -27,6 +27,5 @@ export class PaymentDetailsComponent implements OnInit {
         err => { console.log(err); })
     }
   }
-
 
 }
