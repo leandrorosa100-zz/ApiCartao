@@ -1,0 +1,4 @@
+1- Os testes unitários podem ser realizados através do Runner ( Postman https://www.postman.com/downloads/ ),
+com collections automatizadas.
+
+2- Na pasta está um exemplo de evidência de um teste para o método de autenticação.
