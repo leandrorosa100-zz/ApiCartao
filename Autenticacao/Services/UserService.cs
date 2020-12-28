@@ -21,10 +21,10 @@ namespace WebApi.Services
 
     public class UserService : IUserService
     {
-        // O  Usuário está em hardcode apenas para exemplo, mas a busca deve ser feita em banco de dados. 
+        // O  Usuário está em hardcoded apenas para exemplo, mas a busca deve ser feita em banco de dados. 
         private List<User> _users = new List<User>
         {
-            new User { Id = 1, FirstName = "Test", LastName = "User", Username = "test", Password = "test" }
+            new User { Id = 1, FirstName = "Teste", LastName = "Usuário", Username = "teste", Password = "teste" }
         };
 
         private readonly AppSettings _appSettings;
