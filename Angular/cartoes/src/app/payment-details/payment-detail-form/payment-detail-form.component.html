@@ -14,7 +14,7 @@
     </div>
     <div class="form-row">
         <div class="form-group col-md-6">
-            <label>Código de segurança (CVV)</label>
+            <label>Cód. de segurança (CVV)</label>
             <input type="password" class="form-control form-control-lg" placeholder="3 dígitos" name="cvv"
                 #cvv="ngModel" [(ngModel)]="service.formData.cvv"
                 required maxlength="3" minlength="3" [class.invalid]="cvv.invalid &#038;&#038; cvv.touched">
